@@ -137,7 +137,26 @@
             <div class="container">
                 <div class="col-lg-8 col-lg-offset-2">
                     <h2>Become a seller today!</h2>
-                    <a href="#" class="btn btn-default btn-lg">Upload your product</a>
+                    <form action="/products" method="POST" class="form-horizontal" role="form">
+                        <div class="form-group">
+                            
+                            <div class="col-3">
+                            <div class="card">
+                                <input type='file' class="form-control"/>
+                                <img id="myImg" src="./img/default-product.jpg" alt="your image" style="width: 100%" />
+                            </div>
+                            </div>
+                            <div class="col-9">
+                            <textarea placeholder="description"></textarea>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-sm-12">
+                                <button type="submit" class="btn btn-default btn-lg">Upload your product</button>
+                            </div>
+                        </div>
+                    </form>
+                    
                 </div>
             </div>
         </div>

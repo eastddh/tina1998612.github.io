@@ -45,9 +45,26 @@ p {
   width: 200px;
   height: 250px;
   margin: 4%;
+  background-color: white;
 }
 .card:hover {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  background-color: white;
+}
+.form-group {
+  position: relative;
+}
+textarea {
+  position: absolute;
+  background-color: white;
+  color: #333;
+  height: 250px;
+  right: 10px;
+  left: 250px;
+  margin: 4%;
+  font-size: 0.8em;
+  outline: none;
+  resize: none;
 }
 .description {
   padding: 2px 16px;
@@ -182,6 +199,9 @@ a:focus {
     color: white;
   }
   .card {
+    margin: 10px;
+  }
+  textarea {
     margin: 10px;
   }
 }
