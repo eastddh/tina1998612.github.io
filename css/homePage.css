@@ -199,10 +199,13 @@ a:focus {
     color: white;
   }
   .card {
+    width: 100px;
+    height: 150px;
     margin: 2px;
   }
   textarea {
     margin: 2px;
+    height: 150px;
   }
 }
 .btn-circle {
