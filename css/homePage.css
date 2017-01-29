@@ -42,9 +42,9 @@ p {
   position: relative;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
-  width: 80px;
-  height: 100px;
-  margin: 5px;
+  width: 120px;
+  height: 180px;
+  margin: 7px;
   background-color: white;
 }
 .card:hover {
@@ -58,10 +58,10 @@ textarea {
   position: absolute;
   background-color: white;
   color: #333;
-  height: 100px;
+  height: 180px;
   right: 10px;
-  left: 100px;
-  margin: 5px;
+  left: 150px;
+  margin: 7px;
   font-size: 0.8em;
   outline: none;
   resize: none;
