@@ -108,7 +108,7 @@ a:focus {
   outline: none;
 }
 .navbar-brand {
-  margin-top: 10px;
+  margin-top: 8px;
 }
 .navbar-custom .navbar-brand {
   font-weight: 700;
@@ -212,6 +212,9 @@ a:focus {
     right: 10px;
     left: 250px;
     font-size: 0.8em;
+  }
+  .navbar-brand {
+    margin-top: 0;
   }
 }
 .btn-circle {
