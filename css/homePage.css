@@ -37,6 +37,9 @@ p {
   font-size: 1.5em;
   line-height: 1.5;
 }
+#browse {
+  margin-left: 25px;
+}
 .card {
   float: left;
   position: relative;
@@ -44,8 +47,7 @@ p {
   transition: 0.3s;
   width: 120px;
   height: 180px;
-  margin: 15px;
-  margin-left: 30px;
+  margin: 10px;
   background-color: white;
 }
 .card:hover {
@@ -62,7 +64,7 @@ textarea {
   height: 180px;
   right: 10px;
   left: 150px;
-  margin: 15px;
+  margin: 10px;
   font-size: 0.8em;
   outline: none;
   resize: none;
