@@ -199,10 +199,10 @@ a:focus {
     color: white;
   }
   .card {
-    margin: 10px;
+    margin: 2px;
   }
   textarea {
-    margin: 10px;
+    margin: 2px;
   }
 }
 .btn-circle {
