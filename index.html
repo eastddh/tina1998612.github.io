@@ -40,13 +40,13 @@
     -->
     <!-- Navigation -->
     <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
-        <div class="container">
+        <div class="container-fluid">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
                     Menu <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand page-scroll" href="#page-top">
-                    Home
+                <a class="navbar-brand page-scroll" href="#page-top" id="logInBtn">
+                    Log In
                 </a>
             </div>
 
@@ -137,17 +137,17 @@
             <div class="container">
                 <div class="col-lg-8 col-lg-offset-2">
                     <h2>Become a seller today!</h2>
-                    <form action="/products" method="POST" class="form-horizontal" role="form">
+                    <form action="/products" method="POST" class="form-horizontal" role="form" enctype="multipart/form-data">
                         <div class="form-group">
                             
                             <div class="col-3">
                             <div class="card">
-                                <input type='file' class="form-control"/>
+                                <input type='file' class="form-control" name="productImg" required/>
                                 <img id="myImg" src="./img/default-product.jpg" alt="your image" style="width: 100%" />
                             </div>
                             </div>
                             <div class="col-9">
-                            <textarea placeholder="description"></textarea>
+                            <textarea placeholder="description" name="description"></textarea>
                             </div>
                         </div>
                         <div class="form-group">
